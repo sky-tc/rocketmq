@@ -81,7 +81,7 @@ public class NamesrvStartup {
         }
 
         final NamesrvConfig namesrvConfig = new NamesrvConfig();
-        namesrvConfig.setRocketmqHome("C:\\self\\code\\rocketmq");
+        namesrvConfig.setRocketmqHome("/Users/apple/self/code/rocketmq");
         final NettyServerConfig nettyServerConfig = new NettyServerConfig();
         nettyServerConfig.setListenPort(9876);
         if (commandLine.hasOption('c')) {

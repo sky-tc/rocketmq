@@ -108,7 +108,7 @@ public class BrokerStartup {
             }
 
             final BrokerConfig brokerConfig = new BrokerConfig();
-            brokerConfig.setRocketmqHome("C:\\self\\code\\rocketmq");
+            brokerConfig.setRocketmqHome("/Users/apple/self/code/rocketmq");
             brokerConfig.setNamesrvAddr("localhost:9876");
             //brokerConfig.setAutoCreateTopicEnable(true);
             final NettyServerConfig nettyServerConfig = new NettyServerConfig();
